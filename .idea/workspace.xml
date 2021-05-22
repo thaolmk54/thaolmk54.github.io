@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa89cb0-f512-4111-9299-ee422d2d822d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ThaoMinhLe.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talk.html" beforeDir="false" afterPath="$PROJECT_DIR$/talk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publication.html" beforeDir="false" afterPath="$PROJECT_DIR$/publication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +19,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="109" column="48" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="48" />
+            <state relative-caret-position="429">
+              <caret line="115" column="96" selection-start-line="115" selection-start-column="96" selection-end-line="115" selection-end-column="96" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/talk.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="90" column="75" selection-start-line="90" selection-start-column="75" selection-end-line="90" selection-end-column="75" />
+            <state relative-caret-position="232">
+              <caret line="75" column="122" selection-start-line="75" selection-start-column="122" selection-end-line="75" selection-end-column="122" />
               <folding>
-                <element signature="n#style#0;n#td#0;n#tr#0;n#div#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#div#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#div#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#div#1;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -37,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4470">
-              <caret line="298" column="49" selection-start-line="298" selection-start-column="49" selection-end-line="298" selection-end-column="49" />
+            <state relative-caret-position="289">
+              <caret line="292" column="17" lean-forward="true" selection-start-line="292" selection-start-column="17" selection-end-line="292" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#tr#0;n#div#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#div#1;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -57,6 +58,7 @@
                 <element signature="n#style#0;n#td#0;n#tr#0;n#div#4;n#table#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#div#5;n#table#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#div#0;n#table#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#div#0;n#table#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#div#1;n#table#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -66,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publication.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+            <state relative-caret-position="303">
+              <caret line="121" column="81" selection-end-line="184" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -93,10 +95,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resume.html" />
+        <option value="$PROJECT_DIR$/talk.html" />
         <option value="$PROJECT_DIR$/publication.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/talk.html" />
+        <option value="$PROJECT_DIR$/resume.html" />
       </list>
     </option>
   </component>
@@ -170,6 +172,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="publication.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/thaolmk54.github.io/publication.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.publication.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -205,23 +217,25 @@
       <workItem from="1592875240456" duration="360000" />
       <workItem from="1593405404291" duration="5000" />
       <workItem from="1595997876696" duration="411000" />
-      <workItem from="1601723355817" duration="1183000" />
+      <workItem from="1601723355817" duration="1737000" />
+      <workItem from="1601763417955" duration="120000" />
+      <workItem from="1621664377877" duration="4067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22979000" />
+    <option name="totallyTimeSpent" value="27720000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="834" extended-state="6" />
+    <frame x="0" y="25" width="1680" height="972" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17521368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32951945" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -271,10 +285,35 @@
         <state relative-caret-position="-946" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/publication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="121" column="81" selection-end-line="184" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="115" column="96" selection-start-line="115" selection-start-column="96" selection-end-line="115" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/talk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="75" column="122" selection-start-line="75" selection-start-column="122" selection-end-line="75" selection-end-column="122" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#div#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#div#1;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4470">
-          <caret line="298" column="49" selection-start-line="298" selection-start-column="49" selection-end-line="298" selection-end-column="49" />
+        <state relative-caret-position="289">
+          <caret line="292" column="17" lean-forward="true" selection-start-line="292" selection-start-column="17" selection-end-line="292" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#td#0;n#tr#0;n#div#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#div#1;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -290,34 +329,8 @@
             <element signature="n#style#0;n#td#0;n#tr#0;n#div#4;n#table#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#div#5;n#table#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#div#0;n#table#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#div#0;n#table#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#div#1;n#table#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publication.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="109" column="48" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/talk.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="90" column="75" selection-start-line="90" selection-start-column="75" selection-end-line="90" selection-end-column="75" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#div#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#div#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#div#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#div#1;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
