@@ -10,32 +10,43 @@
     <meta name="author" content="
           Thao Minh Le">
 
-    <title>Thao Minh Le</title>
+    <title>Thao Minh Le - Outreach Activities</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles -->
+    <link href="css/variables.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/components.css" rel="stylesheet">
+    <link href="css/utilities.css" rel="stylesheet">
     <link href="css/portfolio-item.css" rel="stylesheet">
 
-    <!-- Flag -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 
+    <!-- Skip Navigation Link -->
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation" aria-label="Main navigation">
         <div class="container">
-            <!-- <a class="navbar-brand" href="/"><b>Thao Minh Le</b></a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            <a class="navbar-brand" href="/">Dr. Thao Minh Le</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="/">Home
                         </a>
@@ -51,11 +62,11 @@
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="outreach.html">Outreach Activities
-                            <span class="sr-only">(current)</span>
+                            <span class="visually-hidden">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://medium.com/@thaolmk54">Blog</a>
+                        <a class="nav-link" href="https://medium.com/@thaolmk54" target="_blank" rel="noopener noreferrer">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -63,208 +74,190 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container publication">
-        <h1 class="my-4">
-        </h1>
+    <main id="main-content" class="container" style="margin-top: 80px;">
+        <h1 class="page-title">Outreach Activities</h1>
 
-        <div class="row">
-            <div class="col-lg-10">
-                <h4 class="page-header"> Invited Talks / Presentations
-                </h4>
-                <table class="portfolio-table">
-                    <div class="item-entry">
-                        
-                        <div class="item-entry">
-                            <tr>
-                                <td class="year" style="padding-right: 40px"> 10/10/2024</td>
-                                <td><b> <a href="https://www.imte.fraunhofer.de">Fraunhofer Research Institution for Individualized and Cell-Based Medical Engineering IMTE</a>,
-                                        Germany</b></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td> Vision Language Intelligence: Machines That Reason About What They See</td>
-                            </tr>
+        <!-- Invited Talks / Presentations Section -->
+        <section class="mb-12" aria-labelledby="talks-heading">
+            <h2 id="talks-heading" class="section-heading">Invited Talks / Presentations</h2>
+            
+            <div class="d-flex flex-column gap-4">
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">Oct 10, 2024</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="https://www.imte.fraunhofer.de" target="_blank" rel="noopener noreferrer">Fraunhofer Research Institution for Individualized and Cell-Based Medical Engineering IMTE</a>, Germany
+                            </h3>
+                            <p class="mb-0">Vision Language Intelligence: Machines That Reason About What They See</p>
                         </div>
+                    </div>
+                </article>
 
-                        <div class="item-entry">
-                            <tr>
-                                <td class="year" style="padding-right: 40px"> 6/10/2024</td>
-                                <td><b> <a href="https://www.ai.math.uni-muenchen.de/members/professor/kutyniok/index.html">Mathematical Foundations of Artificial Intelligence at LMU Munich</a>,
-                                        Germany</b></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td> Vision Language Intelligence: Machines That Reason About What They See</td>
-                            </tr>
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">Oct 6, 2024</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="https://www.ai.math.uni-muenchen.de/members/professor/kutyniok/index.html" target="_blank" rel="noopener noreferrer">Mathematical Foundations of Artificial Intelligence at LMU Munich</a>, Germany
+                            </h3>
+                            <p class="mb-0">Vision Language Intelligence: Machines That Reason About What They See</p>
                         </div>
-
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 30/03/2022</td>
-                            <td><b> <a href="https://ai.fpt-software.com/ai-residency/">FPT Software AI Center</a>,
-                                    Hanoi, Vietnam</b></td>
-                        </tr>
-
-                        <tr>
-                            <td></td>
-                            <td> Reasoning Over Vision and Language, [<a
-                                    href="https://www.youtube.com/watch?v=hZEdQ5ma0Vs">recording</a>]</td>
-                        </tr>
                     </div>
+                </article>
 
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 18/12/2021</td>
-                            <td><b> <a href="https://vlsp.org.vn/archives">VLSP 2021</a>, online</b></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td> The vieCap4H Challenge: Automatic Image Caption Generation for Healthcare Domain in
-                                Vietnamese, [<a href="https://vlsp.org.vn/archives">recording</a>]</td>
-                        </tr>
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">Mar 30, 2022</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="https://ai.fpt-software.com/ai-residency/" target="_blank" rel="noopener noreferrer">FPT Software AI Center</a>, Hanoi, Vietnam
+                            </h3>
+                            <p class="mb-0">Reasoning Over Vision and Language [<a href="https://www.youtube.com/watch?v=hZEdQ5ma0Vs" target="_blank" rel="noopener noreferrer">recording</a>]</p>
+                        </div>
                     </div>
+                </article>
 
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 20/08/2021</td>
-                            <td><b> <a href="https://ijcai-21.org/tutorials/">IJCAI2021</a> (co-delivered), online</b>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td> Neural Machine Reasoning, [<a href="https://neuralreasoning.github.io/">slides</a>]
-                            </td>
-                        </tr>
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">Dec 18, 2021</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="https://vlsp.org.vn/archives" target="_blank" rel="noopener noreferrer">VLSP 2021</a>, online
+                            </h3>
+                            <p class="mb-0">The vieCap4H Challenge: Automatic Image Caption Generation for Healthcare Domain in Vietnamese [<a href="https://vlsp.org.vn/archives" target="_blank" rel="noopener noreferrer">recording</a>]</p>
+                        </div>
                     </div>
+                </article>
 
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 14/08/2021</td>
-                            <td><b> <a href="https://kdd.org/kdd2021/tutorials">KDD2021</a> (co-delivered), online</b>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td></td>
-                            <td> From Deep Learning to Deep Reasoning, [<a
-                                    href="https://truyentran.github.io/kdd2021-tute.html">slides</a>]</td>
-                        </tr>
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">Aug 20, 2021</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="https://ijcai-21.org/tutorials/" target="_blank" rel="noopener noreferrer">IJCAI2021</a> (co-delivered), online
+                            </h3>
+                            <p class="mb-0">Neural Machine Reasoning [<a href="https://neuralreasoning.github.io/" target="_blank" rel="noopener noreferrer">slides</a>]</p>
+                        </div>
                     </div>
+                </article>
 
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 07/10/2020</td>
-                            <td><b> <a href="https://www.meetup.com/2d3d-ai/events/273049035">2d3d.ai online
-                                        blog</a></b></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td> Visual Question Answering and Visual Reasoning, [<a
-                                    href="resources/slides/[03-Oct-2020]VQA_ThaoLe_VietAI.pdf">slides</a>]</td>
-                        </tr>
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">Aug 14, 2021</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="https://kdd.org/kdd2021/tutorials" target="_blank" rel="noopener noreferrer">KDD2021</a> (co-delivered), online
+                            </h3>
+                            <p class="mb-0">From Deep Learning to Deep Reasoning [<a href="https://truyentran.github.io/kdd2021-tute.html" target="_blank" rel="noopener noreferrer">slides</a>]</p>
+                        </div>
                     </div>
+                </article>
 
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 03/10/2020</td>
-                            <td><b> Guest Lecture, <a href="http://vietai.org/">VietAI Advanced Class in Computer
-                                        Vision</a>, HCM City, Vietnam</b></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td> Visual Question Answering and Visual Reasoning, [<a
-                                    href="resources/slides/[03-Oct-2020]VQA_ThaoLe_VietAI.pdf">slides</a>]</td>
-                        </tr>
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">Oct 7, 2020</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="https://www.meetup.com/2d3d-ai/events/273049035" target="_blank" rel="noopener noreferrer">2d3d.ai online blog</a>
+                            </h3>
+                            <p class="mb-0">Visual Question Answering and Visual Reasoning [<a href="resources/slides/[03-Oct-2020]VQA_ThaoLe_VietAI.pdf">slides</a>]</p>
+                        </div>
                     </div>
+                </article>
 
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 18/06/2020</td>
-                            <td><b>Conference on Computer Vision and Pattern Recognition <a
-                                        href="http://cvpr2020.thecvf.com/">(CVPR2020)</a>, <font color="red"><b>Oral
-                                            Presentation</b></font></b></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td> <a href="https://youtu.be/2HHTmP8YlRU">
-                                    Hierarchical Conditional Relation Networks for Video Question Answering</a>, [<a
-                                    href="resources/slides/[18-Jun-2020]CVPR_6600-slides.pdf">slides</a>]</td>
-                        </tr>
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">Oct 3, 2020</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                Guest Lecture, <a href="http://vietai.org/" target="_blank" rel="noopener noreferrer">VietAI Advanced Class in Computer Vision</a>, HCM City, Vietnam
+                            </h3>
+                            <p class="mb-0">Visual Question Answering and Visual Reasoning [<a href="resources/slides/[03-Oct-2020]VQA_ThaoLe_VietAI.pdf">slides</a>]</p>
+                        </div>
                     </div>
+                </article>
 
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 17/04/2020</td>
-                            <td><b> <a href="https://documents.uow.edu.au/~hoa/">Decision Systems Lab</a>, University of
-                                    Wollongong, Australia</b></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td> Visual Question Answering, [<a
-                                    href="resources/slides/[17-Apr-2020]VQA_ThaoLe_UoW.pdf">slides</a>]</td>
-                        </tr>
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">Jun 18, 2020</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                Conference on Computer Vision and Pattern Recognition <a href="http://cvpr2020.thecvf.com/" target="_blank" rel="noopener noreferrer">(CVPR2020)</a>
+                            </h3>
+                            <p class="mb-2"><span class="publication-badge">Oral Presentation</span></p>
+                            <p class="mb-0">
+                                <a href="https://youtu.be/2HHTmP8YlRU" target="_blank" rel="noopener noreferrer">Hierarchical Conditional Relation Networks for Video Question Answering</a> [<a href="resources/slides/[18-Jun-2020]CVPR_6600-slides.pdf">slides</a>]
+                            </p>
+                        </div>
                     </div>
+                </article>
 
-
-                </table>
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">Apr 17, 2020</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="https://documents.uow.edu.au/~hoa/" target="_blank" rel="noopener noreferrer">Decision Systems Lab</a>, University of Wollongong, Australia
+                            </h3>
+                            <p class="mb-0">Visual Question Answering [<a href="resources/slides/[17-Apr-2020]VQA_ThaoLe_UoW.pdf">slides</a>]</p>
+                        </div>
+                    </div>
+                </article>
             </div>
-            <div class="col-lg-1">
+        </section>
+
+        <!-- Professional Activities Section -->
+        <section class="mb-12" aria-labelledby="professional-heading">
+            <h2 id="professional-heading" class="section-heading">Professional Activities</h2>
+            
+            <div class="d-flex flex-column gap-4">
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2022-present</div>
+                        <div class="flex-grow-1">
+                            <p class="mb-0">Invited reviewer for Transactions on Pattern Analysis and Machine Intelligence (TPAMI). Program Committee Member ICML, NeurIPS, AAAI.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2021-present</div>
+                        <div class="flex-grow-1">
+                            <p class="mb-0">Program Committee Member ICLR, WACV. Invited reviewer for the IEEE Transactions on Multimedia. I also served as part of organizer/Program Chair for the <a href="https://vlsp.org.vn/vlsp2021/eval/vieCap4H" target="_blank" rel="noopener noreferrer">VieCap4H challenge</a> held as part of <a href="https://vlsp.org.vn/vlsp2021" target="_blank" rel="noopener noreferrer">VLSP2021</a>.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2020</div>
+                        <div class="flex-grow-1">
+                            <p class="mb-0">Program Committee Member ICLR 2021; Sub-reviewer for ICML 2020, ECCV 2020, NeurIPS 2020.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2019</div>
+                        <div class="flex-grow-1">
+                            <p class="mb-0">Program Committee Member ICLR 2020; Sub-reviewer for ICML 2019, IJCAI 2019, NeurIPS 2019, AAAI 2020.</p>
+                        </div>
+                    </div>
+                </article>
             </div>
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="col-lg-10">
-                <h4 class="page-header"> Professional Activities
-                </h4>
-                <table class="portfolio-table">
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2022-now</td>
-                            <td>Invited reviewer for Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
-                                Program Committee Member ICML, NeurIPS, AAAI.</td>
-                        </tr>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2021-now</td>
-                            <td>Program Committee Member ICLR, WACV. Invited reviewer for the
-                                IEEE Transactions on Multimedia. I also served as part of organizer/Program Chair for
-                                the <a href="https://vlsp.org.vn/vlsp2021/eval/vieCap4H">VieCap4H challenge</a> held as
-                                part of <a href="https://vlsp.org.vn/vlsp2021">VLSP2021</a>.</td>
-                        </tr>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2020</td>
-                            <td>Program Committee Member ICLR 2021; Sub-reviewer for ICML 2020, ECCV 2020, NeurIPS 2020.
-                            </td>
-                        </tr>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2019</td>
-                            <td>Program Committee Member ICLR 2020; Sub-reviewer for ICML 2019, IJCAI 2019, NeurIPS
-                                2019, AAAI 2020.</td>
-                        </tr>
-                    </div>
-
-                </table>
-            </div>
-            <div class="col-lg-1">
-            </div>
-        </div>
-        <br>
-        <br>
-
-    </div>
+        </section>
+    </main>
     <!-- /.container -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Navigation JavaScript -->
+    <script src="js/navigation.js"></script>
 
 </body>
 

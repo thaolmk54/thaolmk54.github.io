@@ -10,54 +10,63 @@
     <meta name="author" content="
           Thao Minh Le">
 
-    <title>Thao Minh Le</title>
+    <title>Thao Minh Le - Teaching</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles -->
+    <link href="css/variables.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/components.css" rel="stylesheet">
+    <link href="css/utilities.css" rel="stylesheet">
     <link href="css/portfolio-item.css" rel="stylesheet">
 
-    <!-- Flag -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 
+    <!-- Skip Navigation Link -->
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation" aria-label="Main navigation">
         <div class="container">
-            <!-- <a class="navbar-brand" href="/"><b>Thao Minh Le</b></a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            <a class="navbar-brand" href="/">Dr. Thao Minh Le</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="/">Home
                         </a>
                     </li>
-                    <li class="nav-item active">
                     <li class="nav-item">
                         <a class="nav-link" href="publications.html">Publications</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="awards.html">Grants/Awards</a>
                     </li>
-                    </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="teaching.html">Teaching
-                            <span class="sr-only">(current)</span>
+                            <span class="visually-hidden">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="outreach.html">Outreach Activities</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://medium.com/@thaolmk54">Blog</a>
+                        <a class="nav-link" href="https://medium.com/@thaolmk54" target="_blank" rel="noopener noreferrer">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -65,178 +74,140 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container publication">
-        <h1 class="my-4">
-        </h1>
+    <main id="main-content" class="container" style="margin-top: 80px;">
+        <!-- <h1 class="page-title">Teaching</h1> -->
 
-        <div class="row">
-            <div class="col-lg-10">
-                <h4 class="page-header"> Public Lectures
-                </h4>
-                <table class="portfolio-table">
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 07/10/2020</td>
-                            <td><b> <a href="https://www.meetup.com/2d3d-ai/events/273049035">2d3d.ai online
-                                        blog</a></b></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td> Visual Question Answering and Visual Reasoning, [<a
-                                    href="resources/slides/[03-Oct-2020]VQA_ThaoLe_VietAI.pdf">slides</a>]</td>
-                        </tr>
+        <!-- Teaching Section -->
+        <section class="mb-12" aria-labelledby="teaching-heading">
+            <h2 id="teaching-heading" class="section-heading">Teaching</h2>
+            
+            <div class="d-flex flex-column gap-4">
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2025-Present</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                DAAN-862: Analytics Programming in Python, AI-879: Machine Vision (Penn State Great Valley, USA)
+                            </h3>
+                        </div>
                     </div>
+                </article>
 
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 03/10/2020</td>
-                            <td><b> Guest Lecture, <a href="http://vietai.org/">VietAI Advanced Class in Computer
-                                        Vision</a>, HCM City, Vietnam</b></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td> Visual Question Answering and Visual Reasoning, [<a
-                                    href="resources/slides/[03-Oct-2020]VQA_ThaoLe_VietAI.pdf">slides</a>]</td>
-                        </tr>
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2024-2025</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                COSC2531: Programming Fundamentals (RMIT University, Australia)
+                            </h3>
+                        </div>
                     </div>
-
-                </table>
+                </article>
             </div>
-            <div class="col-lg-1">
+        </section>
+
+        <!-- Public Lectures Section -->
+        <section class="mb-12" aria-labelledby="public-lectures-heading">
+            <h2 id="public-lectures-heading" class="section-heading">Public Lectures</h2>
+            
+            <div class="d-flex flex-column gap-4">
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">Oct 7, 2020</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="https://www.meetup.com/2d3d-ai/events/273049035" target="_blank" rel="noopener noreferrer">2d3d.ai online blog</a>
+                            </h3>
+                            <p class="mb-0">Visual Question Answering and Visual Reasoning [<a href="resources/slides/[03-Oct-2020]VQA_ThaoLe_VietAI.pdf">slides</a>]</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">Oct 3, 2020</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                Guest Lecture, <a href="http://vietai.org/" target="_blank" rel="noopener noreferrer">VietAI Advanced Class in Computer Vision</a>, HCM City, Vietnam
+                            </h3>
+                            <p class="mb-0">Visual Question Answering and Visual Reasoning [<a href="resources/slides/[03-Oct-2020]VQA_ThaoLe_VietAI.pdf">slides</a>]</p>
+                        </div>
+                    </div>
+                </article>
             </div>
-        </div>
-        <br>
+        </section>
 
-        <div class="row">
-            <div class="col-lg-10">
-                <h4 class="page-header"> Supervision
-                </h4>
-                <div style="margin-top:10px">
-                    <b>
-                        I am very fortunate to be working with the following group of students and collaborators:
-                    </b>
-                </div>
-                <div style="margin-top:10px">
-                </div>
-                <table class="portfolio-table">
+        <!-- Supervision Section -->
+        <section class="mb-12" aria-labelledby="supervision-heading">
+            <h2 id="supervision-heading" class="section-heading">Supervision</h2>
+            
+            <div class="mb-6">
+                <p class="font-semibold text-lg">I am very fortunate to be working with the following group of students and collaborators:</p>
+            </div>
 
-                    <div class="item-entry">
-                        <tr class="spaceUnder">
-                            <td class="year" style="padding-right: 60px">3/2025-present</td>
-                            <td><b> PhD Student: Y Huynh, Deakin University</b>, Associate supervisor, Co-advised
-                                with Prof Mohamed Abdelrazek and Dr Duc Thanh Nguyen <br>
-                                Topic: <i>Advancing Image Generation: Unsupervised Learning, Efficient Generation, and Fine-Grained Precision in Diffusion Models</i>.
-                            </td>
-                        </tr>
+            <h3 id="current-students-heading" class="text-xl font-semibold text-primary mb-4">Current Students</h3>
+            
+            <div class="d-flex flex-column gap-4 mb-8">
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 140px;">Ph.D. Students</div>
+                        <div class="flex-grow-1">
+                            <h4 class="text-lg font-semibold mb-2">Y Huynh (Deakin University, Australia, 2025-Present) - <em>Advancing Image Generation: Unsupervised Learning, Efficient Generation, and Fine-Grained Precision in Diffusion Models</em></h4>
+                            <h4 class="text-lg font-semibold mb-2">Quang Hung Le (Deakin University, Australia, 2023-Present) - <em>Unified Vision-Language Grounded Learning and Reasoning</em></h4>
+                        </div>
                     </div>
-                    <div>
-                    </div>
-                    <div>
-                    </div>
+                </article>
 
-                    <div class="item-entry">
-                        <tr class="spaceUnder">
-                            <td class="year" style="padding-right: 60px">11/2023-present</td>
-                            <td><b> PhD Student: Quang Hung Le, Deakin University</b>, Principle supervisor, Co-advised
-                                with Prof Truyen
-                                Tran <br>
-                                Topic: <i>Unified Vision-Language Grounded Learning and Reasoning</i>.
-                            </td>
-                        </tr>
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 140px;">Masters Students</div>
+                        <div class="flex-grow-1">
+                            <h4 class="text-lg font-semibold mb-2">Abdulla Aloufi, Mallikanrjun Channappagoudar, Elochukwu Egeonu, Christan Clarke, Renusree Bandaru (Penn State, 2025-Present)</h4>
+                        </div>
                     </div>
-                    <div>
-                    </div>
-                    <div>
-                    </div>
+                </article>
+            </div>
 
-                    <div class="item-entry">
-                        <tr class="spaceUnder">
-                            <td class="year" style="padding-right: 60px">4/2022-present</td>
-                            <td><b> PhD Student: Xuan Tuyen Tran, Deakin University</b>, Principle supervisor,
-                                Co-advised with Prof Truyen
-                                Tran <br>
-                                Topic: <i>Structured Reasoning on Videos</i>.
-                            </td>
-                        </tr>
+            <h3 id="alumni-heading" class="text-xl font-semibold text-primary mb-4">Alumni (Past Advisees, Collaborators)</h3>
+            
+            <div class="d-flex flex-column gap-4 mb-8">
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 140px;">Ph.D. Students</div>
+                        <div class="flex-grow-1">
+                            <h4 class="text-lg font-semibold mb-2">Xuan Tuyen Tran (Deakin University, Australia, 2022-2025) - <em>Structured Reasoning on Videos</em>.</h4>
+                            <h4 class="text-lg font-semibold mb-2">Nikolaj Normann Holm (Technical University of Denmark, External Adviser, 2024) - <em>Machine Learning for Multimorbidity Clustering</em>. Now a Postdoc at DTU.</h4>
+                            <h4 class="text-lg font-semibold mb-2">Hoang Long Dang (Deakin University, Australia, 2021-2024) - <em>Learning to Reason in Vision</em>. Now a Lecturer at Posts and Telecommunications Institute of Technology, Vietnam.</h4>
+                        </div>
                     </div>
-                    <div>
+                </article>
+
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 140px;">Masters Students</div>
+                        <div class="flex-grow-1">
+                            <h4 class="text-lg font-semibold mb-2">Hoang Anh Pham (Deakin University, Australia, 2022-2024) - <em>Video Dialog</em>. Now a Senior Applied Scientist at Speechify.</h4>
+                            <h4 class="text-lg font-semibold mb-2">Johnathon Toh (Internship, Deakin University, Australia, 2020-2021) - <em>Visual Reasoning</em></h4>
+                            <h4 class="text-lg font-semibold mb-2">Ninad Wadekar (Internship, Deakin University, Australia, 2020-2021) - <em>Visual Reasoning</em></h4>
+                        </div>
                     </div>
-
-                </table>
-                <div style="margin-top:10px">
-                    <b>
-                        Alumni (Past Advisees, Collaborators): </b>
-                </div>
-                <div style="margin-top:10px">
-                </div>
-                <table class="portfolio-table">
-
-                    <div class="item-entry">
-                        <tr class="spaceUnder">
-                            <td class="year" style="padding-right: 60px">1/2023-9/2023</td>
-                            <td><b> PhD Student: Nikolaj Normann Holm, Technical University of Denmark</b>, External
-                                adviser <br>
-                                Topic: <i>Machine Learning for Multimorbidity Clustering</i>. Now a Postdoc at DTU.
-                            </td>
-                        </tr>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr class="spaceUnder">
-                            <td class="year" style="padding-right: 60px">9/2021-7/2023</td>
-                            <td><b> MSc Student: <a href="https://www.anhph.com/">Hoang-Anh Pham</a>, Deakin
-                                    University</b>, Assoc. supervisor, Co-advised with Prof Truyen Tran
-                                <br>
-                                Topic: <i>Video
-                                    dialog</i>. Now a Senior Applied Scientist at Speechify.
-                            </td>
-                        </tr>
-                    </div>
-                    <div>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 60px">9/2021-9/2023</td>
-                            <td><b> PhD Student: <a
-                                        href="https://scholar.google.com/citations?user=unEG5bgAAAAJ&hl=en">Hoang-Long
-                                        Dang</a>, Deakin University</b>, Assoc. supervisor, Co-advised with Prof
-                                Truyen Tran <br>
-                                Topic: <i>Learning to reason visually</i>. Now a Lecturer at Posts and Telecommunications Institute of Technology, Vietnam.
-                            </td>
-                        </tr>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 60px">11/2020-2/2021</td>
-                            <td><b> Master's Students: Johnathon Toh, Ninad Wadekar, Deakin University</b>, Internship
-                                Mentor <br>
-                                Topic: <i>Visual reasoning</i>.
-                            </td>
-                        </tr>
-                    </div>
-                </table>
-
-                <div style="margin-top:10px">
-                    <b>
-                        To prospective students: </b> Students at all levels interested in doing research in Machine Learning and Computer Vision are strongly encouraged to reach out to me at <i>thaoyd2@gmail.com</i> for more information.
-                </div>
-
-                </table>
+                </article>
 
             </div>
-            <div class="col-lg-1">
-            </div>
-        </div>
-        <br>
 
-    </div>
+            <div class="card-custom bg-background">
+                <p class="mb-0"><strong>To prospective students:</strong> Students at all levels interested in doing research in Machine Learning and Computer Vision are strongly encouraged to reach out to me at <em>thaoyd2@gmail.com</em> for more information.</p>
+            </div>
+        </section>
+    </main>
     <!-- /.container -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Navigation JavaScript -->
+    <script src="js/navigation.js"></script>
 
 </body>
 

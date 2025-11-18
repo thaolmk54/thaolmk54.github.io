@@ -10,32 +10,43 @@
     <meta name="author" content="
           Thao Minh Le">
 
-    <title>Thao Minh Le</title>
+    <title>Thao Minh Le - Grants and Awards</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles -->
+    <link href="css/variables.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/components.css" rel="stylesheet">
+    <link href="css/utilities.css" rel="stylesheet">
     <link href="css/portfolio-item.css" rel="stylesheet">
 
-    <!-- Flag -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 
+    <!-- Skip Navigation Link -->
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation" aria-label="Main navigation">
         <div class="container">
-            <!-- <a class="navbar-brand" href="/"><b>Thao Minh Le</b></a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            <a class="navbar-brand" href="/">Dr. Thao Minh Le</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="/">Home
                         </a>
@@ -45,7 +56,7 @@
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="awards.html">Grants/Awards
-                            <span class="sr-only">(current)</span>
+                            <span class="visually-hidden">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -55,7 +66,7 @@
                         <a class="nav-link" href="outreach.html">Outreach Activities</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://medium.com/@thaolmk54">Blog</a>
+                        <a class="nav-link" href="https://medium.com/@thaolmk54" target="_blank" rel="noopener noreferrer">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -63,131 +74,157 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container publication">
-        <h1 class="my-4">
-        </h1>
+    <main id="main-content" class="container" style="margin-top: 80px;">
+        <h1 class="page-title">Grants and Awards</h1>
 
-        <div class="row">
-            <div class="col-lg-10">
-                <h4 class="page-header"> Grants
-                </h4>
-                <table class="portfolio-table">
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2024-2026</td>
-                            <td>Computer-based video analysis for early detection of Cerebral Palsy, <i> awarded by
-                                    <a href="https://cerebralpalsy.org.au/">Research
-                                        Foundation of Cerebral Palsy Alliance</a> over 2 years</i>. <b>Role:</b> Sole
-                                Investigator.
-                            </td>
-                        </tr>
+        <!-- Grants Section -->
+        <section class="mb-12" aria-labelledby="grants-heading">
+            <h2 id="grants-heading" class="section-heading">Grants</h2>
+
+            <article class="card-custom">
+                <div class="d-flex gap-4 flex-column flex-md-row">
+                    <div class="text-primary font-semibold" style="min-width: 120px;">2025-2026</div>
+                    <div class="flex-grow-1">
+                        <h3 class="text-lg font-semibold mb-3">Fine-grained Human Motion Understanding for Early
+Detection of Neurological Movement Disorders,</h3>
+                        <p class="mb-2">
+                            <em><strong>Thao Minh Le</strong>, Youakim Badr, Joseph Seemiller. OVPCC Research Seed Grant, awarded by <a href="" target="_blank" rel="noopener noreferrer">Pennsylvania State University</a> for 1 years</em>
+                        </p>
+                        <p class="mb-0"><strong>Role:</strong> Postdoctoral Researcher</p>
                     </div>
+                </div>
+            </article>
 
+            <article class="card-custom">
+                <div class="d-flex gap-4 flex-column flex-md-row">
+                    <div class="text-primary font-semibold" style="min-width: 120px;">2024-2026</div>
+                    <div class="flex-grow-1">
+                        <h3 class="text-lg font-semibold mb-3">Computer-based video analysis for early detection of Cerebral Palsy</h3>
+                        <p class="mb-2">
+                            <em><strong>Thao Minh Le</strong>, Svetha Venkatesh. Awarded by <a href="https://cerebralpalsy.org.au/" target="_blank" rel="noopener noreferrer">Research Foundation of Cerebral Palsy Alliance</a> over 2 years</em>
+                        </p>
+                        <p class="mb-0"><strong>Role:</strong> Chief Investigator</p>
+                    </div>
+                </div>
+            </article>
 
-                </table>
+             <article class="card-custom">
+                <div class="d-flex gap-4 flex-column flex-md-row">
+                    <div class="text-primary font-semibold" style="min-width: 120px;">2025-2028</div>
+                    <div class="flex-grow-1">
+                        <h3 class="text-lg font-semibold mb-3">Fine-grained Human Motion Understanding and Its Applications</h3>
+                        <p class="mb-2">
+                            <em><strong>Thao Minh Le</strong>. Awarded by <a href="" target="_blank" rel="noopener noreferrer">Deakin University</a> over 3 years</em>
+                        </p>
+                        <p class="mb-0"><strong>Role:</strong> Postdoctoral Researcher</p>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- Honours and Awards Section -->
+        <section class="mb-12" aria-labelledby="awards-heading">
+            <h2 id="awards-heading" class="section-heading">Honours and Awards</h2>
+            
+            <div class="d-flex flex-column gap-4">
+
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2024</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="https://www.daad.de/en/the-daad/postdocnet/" target="_blank" rel="noopener noreferrer">DAAD AInet fellow for the Postdoc-NeT-AI 04/2024</a>
+                            </h3>
+                            <p class="mb-0"><em>Awarded by DAAD, Germany</em></p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2023</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="https://www.deakin.edu.au/students/careers-and-graduation/awards-and-prizes/alfred-deakin-medal-for-doctoral-theses" target="_blank" rel="noopener noreferrer">Alfred Deakin Medal for doctoral theses</a>
+                            </h3>
+                            <p class="mb-2"><span class="publication-badge">Best Thesis Award</span></p>
+                            <p class="mb-0"><em>Awarded by Deakin University, Australia</em></p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2020</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="https://www.rsipvision.com/CVPR2020-Thursday/6/" target="_blank" rel="noopener noreferrer">Research featured in CVPR 2020 Daily magazine</a>
+                            </h3>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2018</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">Deakin University Postgraduate Research Scholarship (DUPR)</h3>
+                            <p class="mb-0"><em>Awarded by Deakin University, Australia</em></p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2016</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">Japanese Government (MEXT) Scholarship</h3>
+                            <p class="mb-0"><em>Awarded by the Japanese Government</em></p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2014</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">Travel grant</h3>
+                            <p class="mb-0"><em>Awarded by the National Foundation for Science and Technology of Vietnam (NAFOSTED)</em></p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2013</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">Samsung Talented Program (STP) Scholarship</h3>
+                            <p class="mb-0"><em>Awarded by Samsung Electronics Vietnam</em></p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-custom">
+                    <div class="d-flex gap-4 flex-column flex-md-row">
+                        <div class="text-primary font-semibold" style="min-width: 120px;">2012</div>
+                        <div class="flex-grow-1">
+                            <h3 class="text-lg font-semibold mb-2">Top 10 of SmartPhone Apps Challenge</h3>
+                            <p class="mb-0"><em>Awarded by CyberAgent Ventures, Japan</em></p>
+                        </div>
+                    </div>
+                </article>
             </div>
-            <div class="col-lg-1">
-            </div>
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="col-lg-10">
-                <h4 class="page-header"> Honours and Awards
-                </h4>
-                <table class="portfolio-table">
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2024</td>
-                            <td><a
-                                    href="https://www.deakin.edu.au/research/support-for-researchers/project-funding/deakin-university-funding/duprf">Deakin University Postdoctoral Research Fellowship</a>, <i> awarded by
-                                    Deakin University, Australia.</i></td>
-                        </tr>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2024</td>
-                            <td><a
-                                    href="https://www.daad.de/en/the-daad/postdocnet/">DAAD AInet fellow for the Postdoc-NeT-AI 04/2024</a>, <i> awarded by
-                                    DAAD, Germany.</i></td>
-                        </tr>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2023</td>
-                            <td><a
-                                    href="https://www.deakin.edu.au/students/careers-and-graduation/awards-and-prizes/alfred-deakin-medal-for-doctoral-theses">Alfred
-                                    Deakin Medal for doctoral theses</a> (Best thesis award), <i> awarded by
-                                    Deakin University, Australia.</i></td>
-                        </tr>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2020</td>
-                            <td> <a href="https://www.rsipvision.com/CVPR2020-Thursday/6/">Research featured in CVPR
-                                    2020 Daily magazine.</a></td>
-                        </tr>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2018</td>
-                            <td>Deakin University Postgraduate Research Scholarship (DUPR), <i> awarded by
-                                    Deakin University, Australia.</i></td>
-                        </tr>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2016</td>
-                            <td>Japanese Government (MEXT) Scholarship, <i> awarded by
-                                    the Japanese Government.</i></td>
-                        </tr>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2014</td>
-                            <td>Travel grant, <i> awarded by
-                                    the National Foundation for
-                                    Science and Technology of Vietnam (NAFOSTED).</i></td>
-                        </tr>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2013</td>
-                            <td>Samsung Talented Program (STP) Scholarship, <i> awarded by
-                                    Samsung Electronics Vietnam.</i></td>
-                        </tr>
-                    </div>
-
-                    <div class="item-entry">
-                        <tr>
-                            <td class="year" style="padding-right: 40px"> 2012</td>
-                            <td>Top 10 of SmartPhone Apps Challenge, <i> awarded by
-                                    CyberAgent Ventures, Japan.</i></td>
-                        </tr>
-                    </div>
-
-                </table>
-            </div>
-            <div class="col-lg-1">
-            </div>
-        </div>
-        <br>
-        <br>
-
-    </div>
+        </section>
+    </main>
     <!-- /.container -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Navigation JavaScript -->
+    <script src="js/navigation.js"></script>
 
 </body>
 

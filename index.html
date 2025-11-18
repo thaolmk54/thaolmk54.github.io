@@ -5,40 +5,51 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="
-    This is Dr. Thao Minh Le profile page.
+    This is Thao Minh Le profile page.
     ">
     <meta name="author" content="
     Thao Minh Le">
 
     <title>Thao Minh Le</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles -->
+    <link href="css/variables.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/components.css" rel="stylesheet">
+    <link href="css/utilities.css" rel="stylesheet">
     <link href="css/portfolio-item.css" rel="stylesheet">
 
-    <!-- Flag -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 
+    <!-- Skip Navigation Link -->
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation" aria-label="Main navigation">
         <div class="container">
-            <!-- <a class="navbar-brand" href="/"><b>Thao Minh Le</b></a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            <a class="navbar-brand" href="/">Thao Minh Le</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="/">Home
-                            <span class="sr-only">(current)</span>
+                            <span class="visually-hidden">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -54,146 +65,258 @@
                         <a class="nav-link" href="outreach.html">Outreach Activities</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://medium.com/@thaolmk54">Blog</a>
+                        <a class="nav-link" href="https://medium.com/@thaolmk54" target="_blank" rel="noopener noreferrer">Blog</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-        <h1 class="my-4">
-        </h1>
-
-        <!-- Portfolio Item Row -->
-
-        <div class="row">
-            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
-
-                <div style="vertical-align:middle; text-align:center">
-                    <img class="img-responsive" src="img/ThaoLe.png" style="max-height: 160px; border-radius:2%">
+    <!-- Main Content -->
+    <main id="main-content">
+    
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Profile Image Column -->
+                <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
+                    <div class="hero-image-wrapper">
+                        <img src="img/ThaoLe.png" 
+                             alt="Dr. Thao Minh Le - Assistant Professor of AI" 
+                             class="hero-image"
+                             width="714"
+                             height="958">
+                    </div>
+                    
+                    <!-- Social Links -->
+                    <nav class="social-links" aria-label="Social media and academic profiles">
+                        <ul class="social-links-list">
+                            <li>
+                                <a href="https://scholar.google.com/citations?user=0irkZtkAAAAJ&hl=en" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="social-link">
+                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                    <span>Google Scholar</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="resources/cv/Thao_CV_Nov2025.pdf" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="social-link">
+                                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                                    <span>Curriculum Vitae</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/thaolmk54/" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="social-link">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.researchgate.net/profile/Thao-Le-29" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="social-link">
+                                    <i class="fa fa-flask" aria-hidden="true"></i>
+                                    <span>ResearchGate</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/thaolmk54" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="social-link">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    <span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/thaolmk54" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="social-link">
+                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                    <span>GitHub</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <!-- Visitor Counter -->
+                    <div class="visitor-counter">
+                        <a href="https://clustrmaps.com/site/1bloo" title="Visit tracker" target="_blank" rel="noopener noreferrer">
+                            <img src="//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=tt&d=22cPNZJEauaNggsTqWJu8T2FUlr6IFSsf1K5oOELCE8"
+                                 alt="Visitor map tracker" 
+                                 class="visitor-map"
+                                 width="200"
+                                 height="128"
+                                 loading="lazy" />
+                        </a>
+                    </div>
                 </div>
-
-                <hr>
-
-                <div class="row author_urls_wrapper">
-                    <ul>
-                        <li><a href="https://scholar.google.co.jp/citations?user=0irkZtkAAAAJ&hl=en"> Google Scholar
-                            </a></li>
-                        <li><a href="resources/cv/Thao_CV_Aug2021.pdf"> Curriculum Vitae </a></li>
-                        <li><a href="https://www.linkedin.com/in/thaolmk54/"> LinkedIn </a></li>
-                        <li><a href="https://www.researchgate.net/profile/Thao-Le-29"> Research Gate </a></li>
-                        <li><a href="https://twitter.com/thaolmk54"> Twitter </a></li>
-                        <li><a href="https://github.com/thaolmk54"> Github </a></li>
-                    </ul>
-                </div>
-
-                <hr>
-
-                <div id="counter" style="vertical-align:middle; text-align:center">
-                    <a href="https://clustrmaps.com/site/1bloo" title="Visit tracker"><img
-                            src="//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=tt&d=22cPNZJEauaNggsTqWJu8T2FUlr6IFSsf1K5oOELCE8"
-                            alt="centered image" style="max-width: 95%; height: auto; width: 200px" /></a>
-                </div>
-
-                <hr>
-            </div>
-
-
-            <div class="col-lg-9 col-md-9 col-sm-9">
-
-                <div>
-                    <h3> Thao Minh LE </h3>
-                    <h4 class="page-header"> Bio </h4>
-                    <p>
-                        I am an incoming tenure-track Assistant Professor of AI at the Pennsylvania State University at Great Valley, starting from August 2025. I am currently a Research Fellow at the Applied AI Institute, Deakin University, Australia. I received my Ph.D. in Computer Science from Deakin University in 2021. Prior to that, I obtained my M.Sc. in Computer Science from Tokyo Institute of Technology, Japan and my B.Eng. in Electronics and Communication Engineering from Hanoi University of Science and Technology, Vietnam. I have been recognized with multiple awards for my research contributions and academic excellence.
-                    </p>
-                    <p>
-                        <b>Email: </b> <i>thaoyd2@gmail.com</i>
-                    </p>
-                    </p>
-                </div>
-
-                <div>
-                    <h4 class="page-header"> Research Interests </h4>
-                    <p>
-                        My research interests focus on deep learning and machine learning techniques for <i>visual
-                            perception</i>, and <i>vision and language reasoning</i>. These capabilities are the key
-                        elements required of the next generation of virtual assistant systems. Real-world applications
-                        of these systems include security and safety services, healthcare.
-                    </p>
-                    <br>
-                </div>
-
-                <div>
-                    <h4 class="page-header"> Latest News </h4>
-
-                    <li> [Jul 29, 2025] I am joining Pennsylvania State University at Great Valley, Pennsylvania, USA as a tenure-track Assistant Professor of AI from August 2025. I am looking forward to working with my new colleagues and students.
-                    </li>
-
-                    <li> [Jul 11, 2025] Our paper <a href="">Planner-Refiner: Dynamic Space-Time Refinement for Vision-Language Alignment in Videos</a> is accepted for presentation at the <a
-                        href="https://ecai2025.org/accepted-papers/">European Conference on Artificial Intelligence 2025</a>.
-                    </li>
-
-                    <li> [Jul 11, 2025] Our paper <a href="">Towards Agentic AI for Multimodal-Guided Video Object Segmentation</a> is accepted for presentation at the <a
-                        href="https://ilr-workshop.github.io/ICCVW2025/">Instance-Level Recognition and Generation Workshop, ICCV, 2025</a>.
-                    </li>
-
-                    <li> [Dec 24, 2024] Our paper <a href="">amVAE: Age-aware Multimorbidity clustering using Variational AutoEncoders</a> is accepted for publication in <a
-                        href="https://www-sciencedirect-com.ezproxy-f.deakin.edu.au/journal/computers-in-biology-and-medicine">Computers in Biology and Medicine (CIBM)</a>.
-                    </li>
-
-                    <li> [Dec 10, 2024] Our paper <a href="https://arxiv.org/pdf/2412.08125">Progressive Multi-granular Alignments for Grounded Reasoning in Large Vision-Language Models</a> is accepted for presentation at the <a
-                        href="https://aaai.org/conference/aaai/aaai-25/">AAAI Conference on Artificial Intelligence 2025</a>.
-                    </li>
-
-                    <li> [Nov 4, 2024] I have been awarded a 3-year research support, starting from April 2025, for my research proposal on "Fine-grained Human Motion Understanding and Its Applications" by Deakin University as part of <a
-                        href="https://www.deakin.edu.au/research/support-for-researchers/project-funding/deakin-university-funding/duprf">Deakin University Postdoctoral Research Fellowship 2025</a>.
-                    </li>
-
-                    <li> [Oct 5-13, 2024] I gave a talk at the Ludwig Maximilian University of Munich and Fraunhofer Research Institution, Germany on "Vision Language Intelligence: Machines That Reason About What They See". I am super excited with my upcoming research collaboration with Fraunhofer on AI for surgical education and training and leveraging its capabilities to enhance patient safety.
-                    </li>
-
-                    <li> [Sep 2, 2024] I will be visiting Ludwig Maximilian University of Munich and Fraunhofer Research Institution for Individualized and Cell-Based Medical Engineering IMTE in early October as part of my <a
-                            href="https://www.daad.de/en/the-daad/postdocnet/fellows/fellows/#Le%20TM">DAAD Postdoc-NeT-AI Fellowship</a>.
-                    </li>
-
-                    <li> [Aug 9, 2024] Our preliminary work on <a href="">Promptable Iterative Visual Refinement for Video Instance Segmentation</a> is accepted for presentation at <a
-                            href="https://ilr-workshop.github.io/ECCVW2024/">Instance-Level Recognition Workshop at ECCV 2024</a>.
-                    </li>
-
-                    <li> [Jul 25, 2024] Our paper <a href="">Unified Compositional Query Machine with Multimodal Consistency for Video-based Human Activity Recognition</a> is accepted for presentation at <a
-                            href="https://bmvc2024.org/">British Machine Vision Conference 2024</a>.
-                    </li>
-
-                    <li> [Apr 3, 2024] I have been selected as a DAAD Alnet fellow for the
-                        <a href="https://www.daad.de/en/the-daad/postdocnet/">Postdoctoral Networking Tour in AI 04/2024</a>. I will be participating in a virtual networking week (15/4-19/4/2024) and later receiving the DAAD's financial and origanizational support to visit German institutions in person to learn about the German AI research community. Please say "Hi" if you are also attending!
-                    </li>
-
-                    <li> [Dec 1, 2023] My grant application on video analysis for early detection of Cerebral Palsy has
-                        been successful. I will serve as the <i>Lead Chief Investigator</i> for the two-year project with the
-                        <a href="https://cerebralpalsy.org.au/">Cerebral Palsy Alliance Research Foundation</a>.
-                    </li>
-
-                    <br>
-                    <p>
-                        <font size="4">[<a href="news.html"><b>Older news</b></a>]</font>
-                    </p>
-                    <br>
+                
+                <!-- Bio Content Column -->
+                <div class="col-lg-8 col-md-7">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Dr. Thao Minh Le</h1>
+                        <h2 class="hero-subtitle">Assistant Professor of Artificial Intelligence</h2>
+                        
+                        <article class="hero-bio">
+                            <section class="bio-section">
+                                <h3 class="visually-hidden">Biography</h3>
+                                <p>
+                                    I am currently a tenure-track Assistant Professor of AI at the Pennsylvania State University, Great Valley, USA. I am also a member of the faculty of the Graduate School, Pennsylvania State University. Previously, I worked at the Applied AI Institute, Deakin University, Australia (2021-2025), Yahoo! Japan Research (2017-2018) and Samsung Vietnam Mobile R&D Center (2014-2016). I received my Ph.D. in Computer Science from Deakin University (2021). My research contributions and academic excellence have been recognized with multiple awards.
+                                </p>
+                                <p class="contact-info">
+                                    <strong>Email:</strong> <a href="mailto:thaoyd2@gmail.com">thaoyd2@gmail.com</a>
+                                </p>
+                            </section>
+                            
+                            <section class="research-interests">
+                                <h3>Research Interests</h3>
+                                <p>
+                                    My research interests focus on deep learning and machine learning techniques for <em>visual perception</em>, and <em>vision and language reasoning</em>. These capabilities are the key elements required of the next generation of virtual assistant systems. Real-world applications of these systems include security and safety services, healthcare.
+                                </p>
+                            </section>
+                        </article>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 
-    <!-- /.row -->
+    <!-- News Section -->
+    <section class="news-section" aria-labelledby="news-heading">
+        <div class="container">
+            <h2 id="news-heading" class="section-heading">Latest News</h2>
+            
+            <ul class="news-list">
+                <li class="news-item">
+                    <time class="news-date" datetime="2025-11-11">Nov 11, 2025</time>
+                    <div class="news-content">
+                        Our paper <a href="" target="_blank" rel="noopener noreferrer">Rethinking Deep Alignment Through The Lens Of Incomplete Safety Learning</a> is accepted for presentation at the <a href="https://aaai.org/conference/aaai/aaai-26/" target="_blank" rel="noopener noreferrer">AAAI Conference on Artificial Intelligence 2026 (AAAI-26)</a>.
+                    </div>
+                </li>
+                <li class="news-item">
+                    <time class="news-date" datetime="2025-10-14">Oct 14, 2025</time>
+                    <div class="news-content">
+                        My proposal titled <em>Fine-Grained Human Motion Understanding for Early Detection of Neurological Movement Disorders</em> has been accepted for funding by Penn State University for 2025-2026. Looking forward to working with collaborators and students on this project.
+                    </div>
+                </li>
+                <li class="news-item">
+                    <time class="news-date" datetime="2025-11-11">Oct 14, 2025</time>
+                    <div class="news-content">
+                        Our paper <a href="https://ieeexplore.ieee.org/abstract/document/11215884" target="_blank" rel="noopener noreferrer">Confident and Trustworthy Model for Fidgety Movement Classification</a> is accepted for publication in the <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020" target="_blank" rel="noopener noreferrer">EEE Journal of Biomedical and Health Informatics, 2025</a>.
+                    </div>
+                </li>
 
-    </div>
-    <!-- /.container -->
+                <li class="news-item">
+                    <time class="news-date" datetime="2025-08-18">Aug 18, 2025</time>
+                    <div class="news-content">
+                        I joined The Pennsylvania State University, Great Valley, Pennsylvania, USA as a tenure-track Assistant Professor of AI from August 2025. I am also part of I am looking forward to working with my new colleagues and students.
+                    </div>
+                </li>
+                
+                <li class="news-item">
+                    <time class="news-date" datetime="2025-07-11">Jul 11, 2025</time>
+                    <div class="news-content">
+                        Our paper <a href="" target="_blank" rel="noopener noreferrer">Planner-Refiner: Dynamic Space-Time Refinement for Vision-Language Alignment in Videos</a> is accepted for presentation at the <a href="https://ecai2025.org/accepted-papers/" target="_blank" rel="noopener noreferrer">European Conference on Artificial Intelligence 2025</a>.
+                    </div>
+                </li>
+                
+                <li class="news-item">
+                    <time class="news-date" datetime="2025-07-11">Jul 11, 2025</time>
+                    <div class="news-content">
+                        Our paper <a href="" target="_blank" rel="noopener noreferrer">Towards Agentic AI for Multimodal-Guided Video Object Segmentation</a> is accepted for presentation at the <a href="https://ilr-workshop.github.io/ICCVW2025/" target="_blank" rel="noopener noreferrer">Instance-Level Recognition and Generation Workshop, ICCV, 2025</a>.
+                    </div>
+                </li>
+                
+                <li class="news-item">
+                    <time class="news-date" datetime="2024-12-24">Dec 24, 2024</time>
+                    <div class="news-content">
+                        Our paper <a href="" target="_blank" rel="noopener noreferrer">amVAE: Age-aware Multimorbidity clustering using Variational AutoEncoders</a> is accepted for publication in <a href="https://www-sciencedirect-com.ezproxy-f.deakin.edu.au/journal/computers-in-biology-and-medicine" target="_blank" rel="noopener noreferrer">Computers in Biology and Medicine (CIBM)</a>.
+                    </div>
+                </li>
+                
+                <li class="news-item">
+                    <time class="news-date" datetime="2024-12-10">Dec 10, 2024</time>
+                    <div class="news-content">
+                        Our paper <a href="https://arxiv.org/pdf/2412.08125" target="_blank" rel="noopener noreferrer">Progressive Multi-granular Alignments for Grounded Reasoning in Large Vision-Language Models</a> is accepted for presentation at the <a href="https://aaai.org/conference/aaai/aaai-25/" target="_blank" rel="noopener noreferrer">AAAI Conference on Artificial Intelligence 2025</a>.
+                    </div>
+                </li>
+                
+                <li class="news-item">
+                    <time class="news-date" datetime="2024-11-04">Nov 4, 2024</time>
+                    <div class="news-content">
+                        I have been awarded a 3-year research support, starting from April 2025, for my research proposal on "Fine-grained Human Motion Understanding and Its Applications" by Deakin University as part of <a href="https://www.deakin.edu.au/research/support-for-researchers/project-funding/deakin-university-funding/duprf" target="_blank" rel="noopener noreferrer">Deakin University Postdoctoral Research Fellowship 2025</a>.
+                    </div>
+                </li>
+                
+                <li class="news-item">
+                    <time class="news-date" datetime="2024-10-05">Oct 5-13, 2024</time>
+                    <div class="news-content">
+                        I gave a talk at the Ludwig Maximilian University of Munich and Fraunhofer Research Institution, Germany on <em>Vision Language Intelligence: Machines That Reason About What They See</em>. I am super excited with my upcoming research collaboration with Fraunhofer on AI for surgical education and training and leveraging its capabilities to enhance patient safety.
+                    </div>
+                </li>
+                
+                <li class="news-item">
+                    <time class="news-date" datetime="2024-09-02">Sep 2, 2024</time>
+                    <div class="news-content">
+                        I will be visiting Ludwig Maximilian University of Munich and Fraunhofer Research Institution for Individualized and Cell-Based Medical Engineering IMTE in early October as part of my <a href="https://www.daad.de/en/the-daad/postdocnet/fellows/fellows/#Le%20TM" target="_blank" rel="noopener noreferrer">DAAD Postdoc-NeT-AI Fellowship</a>.
+                    </div>
+                </li>
+                
+                <li class="news-item">
+                    <time class="news-date" datetime="2024-08-09">Aug 9, 2024</time>
+                    <div class="news-content">
+                        Our preliminary work on <a href="" target="_blank" rel="noopener noreferrer">Promptable Iterative Visual Refinement for Video Instance Segmentation</a> is accepted for presentation at <a href="https://ilr-workshop.github.io/ECCVW2024/" target="_blank" rel="noopener noreferrer">Instance-Level Recognition Workshop at ECCV 2024</a>.
+                    </div>
+                </li>
+                
+                <li class="news-item">
+                    <time class="news-date" datetime="2024-07-25">Jul 25, 2024</time>
+                    <div class="news-content">
+                        Our paper <a href="" target="_blank" rel="noopener noreferrer">Unified Compositional Query Machine with Multimodal Consistency for Video-based Human Activity Recognition</a> is accepted for presentation at <a href="https://bmvc2024.org/" target="_blank" rel="noopener noreferrer">British Machine Vision Conference 2024</a>.
+                    </div>
+                </li>
+                
+                <li class="news-item">
+                    <time class="news-date" datetime="2024-04-03">Apr 3, 2024</time>
+                    <div class="news-content">
+                        I have been selected as a DAAD Alnet fellow for the <a href="https://www.daad.de/en/the-daad/postdocnet/" target="_blank" rel="noopener noreferrer">Postdoctoral Networking Tour in AI 04/2024</a>. I will be participating in a virtual networking week (15/4-19/4/2024) and later receiving the DAAD's financial and origanizational support to visit German institutions in person to learn about the German AI research community. Please say "Hi" if you are also attending!
+                    </div>
+                </li>
+                
+                <li class="news-item">
+                    <time class="news-date" datetime="2023-12-01">Dec 1, 2023</time>
+                    <div class="news-content">
+                        My grant application on video analysis for early detection of Cerebral Palsy has been successful. I will serve as the <em>Lead Chief Investigator</em> for the two-year project with the <a href="https://cerebralpalsy.org.au/" target="_blank" rel="noopener noreferrer">Cerebral Palsy Alliance Research Foundation</a>.
+                    </div>
+                </li>
+            </ul>
+            
+            <p class="news-archive-link">
+                <a href="news.html" class="btn-link">View older news</a>
+            </p>
+        </div>
+    </section>
+    
+    </main>
+    <!-- End Main Content -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Navigation JavaScript -->
+    <script src="js/navigation.js"></script>
 
 </body>
 

@@ -1,80 +1,133 @@
-/*!
- * Start Bootstrap - Portfolio Item (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+/**
+ * Portfolio Item Styles - Updated for Design System
+ * Academic Website Modernization
+ * 
+ * Original: Start Bootstrap - Portfolio Item
+ * Updated to use CSS custom properties and modern design system
  */
 
- body {
-  padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+/* Body Padding for Fixed Navigation */
+body {
+  padding-top: 70px;
 }
 
+/* Portfolio Item */
 .portfolio-item {
-  margin-bottom: 25px;
+  margin-bottom: var(--spacing-6);
 }
 
+/* Footer */
 footer {
-  margin: 50px 0;
+  margin: var(--spacing-12) 0;
 }
 
+/* Container Text Alignment */
 .container {
-text-align: justify;
+  text-align: justify;
 }
 
+/* Year Column */
 .year {
-font-family: "Monospace";
-width: 130px;
-min-width: 100px;
-
+  font-family: 'Monaco', 'Courier New', monospace;
+  width: 130px;
+  min-width: 100px;
+  color: var(--color-text-light);
+  font-weight: var(--font-weight-medium);
 }
 
+/* Portfolio Table */
 .portofolio-table {
-table-layout: fixed; 
-width: 100%;
-display: inline-block; 
-vertical-align: text-top;
+  table-layout: fixed;
+  width: 100%;
+  display: inline-block;
+  vertical-align: text-top;
 }
 
+/* Publication List Items */
 .publication li {
-margin-bottom:	20px;
+  margin-bottom: var(--spacing-5);
+  line-height: var(--line-height-base);
 }
 
+/* No Style List */
 .nostyle-list li {
-list-style-type: none;
+  list-style-type: none;
 }
 
-tr.highlight { 
+/* Highlighted Table Rows */
+tr.highlight {
   border-bottom: 10px solid;
   border-color: transparent;
 }
 
+/* Page Header */
 .page-header {
-background-color: #F0F0F0;
-border-radius: 5px;
-padding: 10px;
-
+  background-color: var(--color-background);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-6);
+  border-left: 4px solid var(--color-accent);
+  margin-bottom: var(--spacing-8);
 }
 
+/* Main Info */
 .main-info {
-font-size: 16px;
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
 }
 
+/* Other Links */
 .other-links {
-list-style: none;
-padding-top: 20px;
-padding-left: 0px;
+  list-style: none;
+  padding-top: var(--spacing-5);
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3);
 }
 
+/* Authorship (Current Author Highlight) */
 .authorship {
-font-weight: 480;
-text-decoration: underline;
-color: #183BE9;
+  font-weight: var(--font-weight-semibold);
+  text-decoration: underline;
+  color: var(--color-primary);
 }
 
+/* Paper Verdict (Special Designations) */
 .paperverdict {
-font-weight: 700;
-color: #C70039;
+  font-weight: var(--font-weight-bold);
+  color: #C70039;
+  display: inline-block;
+  padding: var(--spacing-1) var(--spacing-3);
+  background-color: rgba(199, 0, 57, 0.1);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
 }
 
+/* News Date (Legacy - prefer .news-date in components.css) */
 .news-date {
-color: #C0C0C0;
+  color: var(--color-text-light);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-sm);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  body {
+    padding-top: 60px;
+  }
+  
+  .year {
+    width: 100%;
+    min-width: auto;
+    display: block;
+    margin-bottom: var(--spacing-2);
+  }
+  
+  .portofolio-table {
+    display: block;
+  }
+  
+  .page-header {
+    padding: var(--spacing-4);
+  }
 }

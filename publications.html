@@ -4,45 +4,51 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="
-          This is Dr. Thao Minh Le profile page.
-          ">
-    <meta name="author" content="
-          Thao Minh Le">
+    <meta name="description" content="This is Dr. Thao Minh Le profile page.">
+    <meta name="author" content="Thao Minh Le">
 
-    <title>Thao Minh Le</title>
+    <title>Thao Minh Le - Publications</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles -->
+    <link href="css/variables.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/components.css" rel="stylesheet">
+    <link href="css/utilities.css" rel="stylesheet">
     <link href="css/portfolio-item.css" rel="stylesheet">
 
-    <!-- Flag -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
 
+    <!-- Skip Navigation Link -->
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation" aria-label="Main navigation">
         <div class="container">
-            <!-- <a class="navbar-brand" href="/"><b>Thao Minh Le</b></a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            <a class="navbar-brand" href="/">Dr. Thao Minh Le</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Home
-                        </a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="publications.html">Publications
-                            <span class="sr-only">(current)</span>
+                            <span class="visually-hidden">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -55,7 +61,7 @@
                         <a class="nav-link" href="outreach.html">Outreach Activities</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://medium.com/@thaolmk54">Blog</a>
+                        <a class="nav-link" href="https://medium.com/@thaolmk54" target="_blank" rel="noopener noreferrer">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -63,250 +69,221 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container publication">
-        <h1 class="my-4">
-        </h1>
+    <main id="main-content" class="container publication">
+        <h1 class="my-4 page-title">Publications</h1>
 
-        <div class="row">
-            <div class="col-lg-10">
-                <h4 class="page-header"> Journal Papers
-                </h4>
-                <ul>
-                    <li>
-                        <u>Thao Minh Le</u>, Vuong Le, Svetha Venkatesh and Truyen Tran. <a
-                            href="https://arxiv.org/abs/2010.10019">
-                            Hierarchical Conditional Relation Networks for Multimodal Video Question Answering</a>.
-                        International Journal of Computer Vision (IJCV).
-                    </li>
+        <!-- Journal Papers Section -->
+        <section class="publication-section" aria-labelledby="journal-heading">
+            <h2 id="journal-heading" class="section-heading">Journal Papers</h2>
+            <div class="publications-list">
+                
+                <article class="publication-entry" data-pub-type="journal">
+                    <p class="publication-authors">Romero Morais, <span class="current-author">Thao Minh Le</span>, Truyen Tran, OCaroline Alexander, Natasha Amery, Catherine Morgan, Alicia Spittle, Vuong Le, Nadia Badawi, Alison Salt, Jane Valentine, Catherine Elliott, Elizabeth M Hurrion, Paul A Dawson, Svetha Venkatesh.</p>
+                    <h3 class="publication-title"><a href="https://ieeexplore.ieee.org/abstract/document/11215884" target="_blank" rel="noopener noreferrer">Confident and Trustworthy Model for Fidgety Movement Classification</a></h3>
+                    <p class="publication-venue">IEEE Journal of Biomedical and Health Informatics, 2025</p>
+                </article>
 
-                    <li>
-                        Tri Minh Nguyen, Thin Nguyen, <u>Thao Minh Le</u>, Truyen Tran. <a
-                            href="https://pubmed.ncbi.nlm.nih.gov/34197324/">GEFA: Early Fusion Approach in Drug-Target
-                            Affinity Prediction</a>. IEEE/ACM Transactions on Computational Biology and Bioinformatics.
-                    </li>
+                <article class="publication-entry" data-pub-type="journal">
+                    <p class="publication-authors">Nikolaj Normann Holma, <span class="current-author">Thao Minh Le</span>, Anne Frølichc, Ove Andersene, Helle Gybel Juul-Larsene, Anders Stockmarra, Svetha Venkatesh.</p>
+                    <h3 class="publication-title"><a href="https://openreview.net/forum?id=NXnSr_uXgh" target="_blank" rel="noopener noreferrer">amVAE: Age-aware Multimorbidity clustering using Variational AutoEncoders</a></h3>
+                    <p class="publication-venue">Computers in Biology and Medicine, 2024</p>
+                </article>
 
-                    <li>
-                        <u>Thao Minh Le</u>, Long Hoang Dang, Thanh-Son Nguyen, Thi Minh Huyen Nguyen, Xuan-Son Vu. <a
-                            href="https://people.cs.umu.se/sonvx/files/VieCap4H_VLSP21.pdf">VLSP 2021 – VieCap4H
-                            Challenge: Automatic Image Caption Generation for Healthcare Domain in Vietnamese</a>. VNU
-                        Journal of Science: Computer Science and Communication Engineering. To be appeared!
-                    </li>
+                <article class="publication-entry" data-pub-type="journal">
+                    <p class="publication-authors">Long Hoang Dang, <span class="current-author">Thao Minh Le</span>, Vuong Le, Tu Minh Phuong, Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://openreview.net/forum?id=NXnSr_uXgh" target="_blank" rel="noopener noreferrer">Dynamic Reasoning for Movie QA: A Character-Centric Approach</a></h3>
+                    <p class="publication-venue">IEEE Transactions on Multimedia, 2022</p>
+                </article>
 
-                    <li>
-                        Long Hoang Dang, <u>Thao Minh Le</u>, Vuong Le, Tu Minh Phuong, Truyen Tran. <a
-                            href="https://openreview.net/forum?id=NXnSr_uXgh">
-                            Dynamic Reasoning for Movie QA: A Character-Centric Approach</a>.
-                        IEEE Transactions on Multimedia.
-                    </li>
+                <article class="publication-entry" data-pub-type="journal">
+                    <p class="publication-authors"><span class="current-author">Thao Minh Le</span>, Vuong Le, Svetha Venkatesh and Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://arxiv.org/abs/2010.10019" target="_blank" rel="noopener noreferrer">Hierarchical Conditional Relation Networks for Multimodal Video Question Answering</a></h3>
+                    <p class="publication-venue">International Journal of Computer Vision (IJCV), 2021</p>
+                </article>
 
-                    <li>
-                        Nikolaj Normann Holma, <u>Thao Minh Le</u>, Anne Frølichc, Ove Andersene, Helle Gybel Juul-Larsene, Anders Stockmarra, Svetha Venkatesh. <a href="https://openreview.net/forum?id=NXnSr_uXgh"> amVAE: Age-aware Multimorbidity clustering using
-                            Variational AutoEncoders</a>.
-                        Computers in Biology and Medicine.
-                    </li>
-                </ul>
+                <article class="publication-entry" data-pub-type="journal">
+                    <p class="publication-authors">Tri Minh Nguyen, Thin Nguyen, <span class="current-author">Thao Minh Le</span>, Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://pubmed.ncbi.nlm.nih.gov/34197324/" target="_blank" rel="noopener noreferrer">GEFA: Early Fusion Approach in Drug-Target Affinity Prediction</a></h3>
+                    <p class="publication-venue">IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2021</p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="journal">
+                    <p class="publication-authors"><span class="current-author">Thao Minh Le</span>, Long Hoang Dang, Thanh-Son Nguyen, Thi Minh Huyen Nguyen, Xuan-Son Vu.</p>
+                    <h3 class="publication-title"><a href="https://people.cs.umu.se/sonvx/files/VieCap4H_VLSP21.pdf" target="_blank" rel="noopener noreferrer">VLSP 2021 – VieCap4H Challenge: Automatic Image Caption Generation for Healthcare Domain in Vietnamese</a></h3>
+                    <p class="publication-venue">VNU Journal of Science: Computer Science and Communication Engineering, 2021</p>
+                </article>
+
+
             </div>
-            <div class="col-lg-1">
+        </section>
+
+        <!-- Conference Proceedings Section -->
+        <section class="publication-section" aria-labelledby="conference-heading">
+            <h2 id="conference-heading" class="section-heading">Conference Proceedings</h2>
+            <div class="publications-list">
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors">Thong Bach, Dung Nguyen, <span class="current-author">Thao Minh Le</span> and Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://ecai2025.org/accepted-papers/" target="_blank" rel="noopener noreferrer">Rethinking Deep Alignment Through The Lens Of Incomplete Safety Learning</a></h3>
+                    <p class="publication-venue">40th Annual AAAI Conference on Artificial Intelligence (AAAI), 2026</p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors">Tuyen Tran, <span class="current-author">Thao Minh Le</span>, Quang-Hung Le and Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://ecai2025.org/accepted-papers/" target="_blank" rel="noopener noreferrer">Planner-Refiner: Dynamic Space-Time Refinement for Vision-Language Alignment in Videos</a></h3>
+                    <p class="publication-venue">28th European Conference on Artificial Intelligence (ECAI), 2025</p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors">Quang-Hung Le, Long Hoang Dang, Ngan Le, Truyen Tran, <span class="current-author">Thao Minh Le</span>.</p>
+                    <h3 class="publication-title"><a href="https://arxiv.org/pdf/2412.08125" target="_blank" rel="noopener noreferrer">Progressive Multi-granular Alignments for Grounded Reasoning in Large Vision-Language Models</a></h3>
+                    <p class="publication-venue">AAAI Conference on Artificial Intelligence (AAAI), 2025</p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors">Tuyen Tran, <span class="current-author">Thao Minh Le</span>, Hung Tran, Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://bmvc2024.org/proceedings/426/" target="_blank" rel="noopener noreferrer">Unified Compositional Query Machine with Multimodal Consistency for Video-based Human Activity Recognition</a></h3>
+                    <p class="publication-venue">British Machine Vision Conference (BMVC), 2024</p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors"><span class="current-author">Thao Minh Le</span>, Vuong Le, Svetha Venkatesh, Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://arxiv.org/pdf/2205.12616.pdf" target="_blank" rel="noopener noreferrer">Guiding Visual Question Answering with Attention Priors</a></h3>
+                    <p class="publication-venue">Winter Conference on Applications of Computer Vision (WACV), 2023</p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors">Hoang-Anh Pham, <span class="current-author">Thao Minh Le</span>, Vuong Le, Tu Minh Phuong, Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://arxiv.org/pdf/2207.03656.pdf" target="_blank" rel="noopener noreferrer">Video Dialog as Conversation about Objects Living in Space-Time</a></h3>
+                    <p class="publication-venue">European Conference on Computer Vision (ECCV), 2022</p>
+                    <p class="publication-links"><a href="https://github.com/hoanganhpham1006/COST" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a></p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors">Long Hoang Dang, <span class="current-author">Thao Minh Le</span>, Vuong Le, Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://arxiv.org/pdf/2106.13432.pdf" target="_blank" rel="noopener noreferrer">Hierarchical Object-oriented Spatio-Temporal Reasoning for Video Question Answering</a></h3>
+                    <p class="publication-venue">International Joint Conference on Artificial Intelligence (IJCAI), 2021</p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors">Long Hoang Dang, <span class="current-author">Thao Minh Le</span>, Vuong Le, Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://arxiv.org/abs/2104.05166" target="_blank" rel="noopener noreferrer">Object-Centric Representation Learning for Video Question Answering</a></h3>
+                    <p class="publication-venue">International Joint Conference on Neural Networks (IJCNN), 2021</p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors"><span class="current-author">Thao Minh Le</span>, Vuong Le, Svetha Venkatesh, Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://arxiv.org/abs/2004.14603" target="_blank" rel="noopener noreferrer">Dynamic Language Binding in Relational Visual Reasoning</a></h3>
+                    <p class="publication-venue">International Joint Conference on Artificial Intelligence (IJCAI), 2020</p>
+                    <p class="publication-links"><a href="https://github.com/thaolmk54/LOGNet-VQA" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a></p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors"><span class="current-author">Thao Minh Le</span>, Vuong Le, Svetha Venkatesh, Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://arxiv.org/abs/1907.04553" target="_blank" rel="noopener noreferrer">Neural Reasoning, Fast and Slow, for Video Question Answering</a></h3>
+                    <p class="publication-venue">International Joint Conference on Neural Networks (IJCNN), 2020</p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors"><span class="current-author">Thao Minh Le</span>, Vuong Le, Svetha Venkatesh and Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://arxiv.org/abs/2002.10698" target="_blank" rel="noopener noreferrer">Hierarchical Conditional Relation Networks for Video Question Answering</a></h3>
+                    <p class="publication-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020</p>
+                    <p class="publication-links">
+                        <a href="https://github.com/thaolmk54/hcrn-videoqa" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
+                        <span class="publication-special">Oral Presentation</span>
+                    </p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors"><span class="current-author">Thao Minh Le</span>, Nakamasa Inoue, Koichi Shinoda.</p>
+                    <h3 class="publication-title"><a href="http://bmvc2018.org/contents/papers/0745.pdf" target="_blank" rel="noopener noreferrer">A Fine-to-Coarse Convolutional Neural Network for 3D Human Action Recognition</a></h3>
+                    <p class="publication-venue">British Machine Vision Conference (BMVC), 2018</p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors"><span class="current-author">Thao Le Minh</span>, Nobuyuki Shimizu, Takashi Miyazaki, Koichi Shinoda.</p>
+                    <h3 class="publication-title"><a href="https://www.ijcai.org/proceedings/2018/214" target="_blank" rel="noopener noreferrer">Deep Learning Based Multi-modal Addressee Recognition in Visual Scenes with Utterances</a></h3>
+                    <p class="publication-venue">International Joint Conference on Artificial Intelligence (IJCAI), 2018</p>
+                    <p class="publication-links"><a href="https://github.com/yahoojapan/VSU-Dataset" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> Dataset</a></p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="conference">
+                    <p class="publication-authors">Viet Dung Nguyen, <span class="current-author">Minh Thao Le</span>, Anh Duc Do, Hoang Hai Duong, Toan Dat Thai, and Duc Hoa Tran.</p>
+                    <h3 class="publication-title"><a href="https://ieeexplore.ieee.org/document/6931308/" target="_blank" rel="noopener noreferrer">An efficient camera-based surveillance for fall detection of elderly people</a></h3>
+                    <p class="publication-venue">IEEE Conference on Industrial Electronics and Applications (ICIEA), 2014</p>
+                </article>
+
             </div>
-        </div>
-        <br>
+        </section>
 
-        <div class="row">
-            <div class="col-lg-10">
-                <h4 class="page-header"> Conference Preceedings (peer reviewed)
-                </h4>
-                <ul>
+        <!-- Workshop Papers Section -->
+        <section class="publication-section" aria-labelledby="workshop-heading">
+            <h2 id="workshop-heading" class="section-heading">Workshop Papers and Technical Reports</h2>
+            <div class="publications-list">
 
-                    <li>
-                        Tuyen Tran, <u>Thao Minh Le</u>, Quang-Hung Le and Truyen Tran. <a href="https://ecai2025.org/accepted-papers/">Planner-Refiner: Dynamic Space-Time Refinement for Vision-Language Alignment in Videos</a>. To appear at the 28th European Conference on Artificial Intelligence 2025 (ECAI-25).
-                    </li>
+                <article class="publication-entry" data-pub-type="workshop">
+                    <p class="publication-authors">Tuyen Tran, <span class="current-author">Thao Minh Le</span>, Truyen Tran.</p>
+                    <h3 class="publication-title">Promptable Iterative Visual Refinement for Video Instance Segmentation</h3>
+                    <p class="publication-venue">Instance-Level Recognition Workshop at ECCV, 2024</p>
+                </article>
 
-                    <li>
-                        Quang-Hung Le, Long Hoang Dang, Ngan Le, Truyen Tran, <u>Thao Minh Le</u>. <a href="https://arxiv.org/pdf/2412.08125">Progressive Multi-granular Alignments for Grounded Reasoning in Large
-                            Vision-Language Models</a>. To appear at the AAAI Conference on Artificial Intelligence 2025 (AAAI-25).
-                    </li>
+                <article class="publication-entry" data-pub-type="workshop">
+                    <p class="publication-authors">Long Hoang Dang, <span class="current-author">Thao Minh Le</span>, Vuong Le, Tu Minh Phuong, Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://openreview.net/forum?id=NXnSr_uXgh" target="_blank" rel="noopener noreferrer">Time-Evolving Conditional Character-centric Graphs for Movie Understanding</a></h3>
+                    <p class="publication-venue">NeurIPS Temporal Graph Learning Workshop, 2022</p>
+                </article>
 
-                    <li>
-                        Tuyen Tran, <u>Thao Minh Le</u>, Hung Tran, Truyen Tran. <a
-                            href="https://bmvc2024.org/proceedings/426/">Unified Compositional Query Machine with Multimodal Consistency for Video-based Human Activity Recognition</a>. To appear at the British Machine Vision Conference 2024.
-                    </li>
+                <article class="publication-entry" data-pub-type="workshop">
+                    <p class="publication-authors">Tri Minh Nguyen, Thin Nguyen, <span class="current-author">Thao Minh Le</span>, Truyen Tran.</p>
+                    <h3 class="publication-title"><a href="https://www.mlsb.io/papers/MLSB2020_GEFA:_Early_Fusion_Approach.pdf" target="_blank" rel="noopener noreferrer">GEFA: Early Fusion Approach in Drug-Target Affinity Prediction</a></h3>
+                    <p class="publication-venue">NeurIPS Workshop on Machine Learning for Structural Biology (MLSB), 2020</p>
+                </article>
 
-                    <li>
-                        <u>Thao Minh Le</u>, Vuong Le, Svetha Venkatesh, Truyen Tran. <a
-                            href="https://arxiv.org/pdf/2205.12616.pdf">Guiding Visual Question Answering with Attention
-                            Priors</a>. To appear at the 2023
-                        Winter Conference on Applications of Computer Vision (WACV'23).
-                    </li>
+                <article class="publication-entry" data-pub-type="workshop">
+                    <p class="publication-authors">Long Hoang Dang, <span class="current-author">Thao Minh Le</span>, Vuong Le, Truyen Tran.</p>
+                    <h3 class="publication-title">Object-Centric Relational Reasoning for Video Question Answering</h3>
+                    <p class="publication-venue">ECCV Workshop on Video Turing Test: Toward Human-Level Video Story Understanding, 2020</p>
+                </article>
 
-                    <li>
-                        Hoang-Anh Pham, <u>Thao Minh Le</u>, Vuong Le, Tu Minh Phuong, Truyen Tran. <a
-                            href="https://arxiv.org/pdf/2207.03656.pdf">Video Dialog as Conversation about Objects
-                            Living in Space-Time</a>. To appear at 2022 European Conference on Computer Vision (ECCV'22)
-                        . Code is available on <a href="https://github.com/hoanganhpham1006/COST">GitHub</a>.
-                    </li>
+                <article class="publication-entry" data-pub-type="workshop">
+                    <p class="publication-authors"><span class="current-author">Thao Minh Le</span>, Nakamasa Inoue, Koichi Shinoda.</p>
+                    <h3 class="publication-title"><a href="https://www.ieice.org/ken/paper/2018121431Ih/" target="_blank" rel="noopener noreferrer">Skeleton-based Human Action Recognition with Fine-to-Coarse Convolutional Neural Network</a></h3>
+                    <p class="publication-venue">Technical Reports of IEICE PRMU, vol. 118, no. 362, pp. 61-64, 2018</p>
+                </article>
 
-                    <li>
-                        Long Hoang Dang, <u>Thao Minh Le</u>, Vuong Le, Truyen Tran. <a
-                            href="https://arxiv.org/pdf/2106.13432.pdf">Hierarchical Object-oriented Spatio-
-                            Temporal Reasoning for Video Question Answering</a>. To appear at the 2021
-                        International Joint Conference on Artificial Intelligence (IJCAI’21).
-                    </li>
-
-                    <li>
-                        Long Hoang Dang, <u>Thao Minh Le</u>, Vuong Le, Truyen Tran. <a
-                            href="https://arxiv.org/abs/2104.05166">Object-Centric Representation Learning for Video
-                            Question Answering</a>. To appear at the 2021 International Joint Conference on Neural
-                        Networks
-                        (IJCNN’21).
-                    </li>
-
-                    <li>
-                        <u>Thao Minh Le</u>, Vuong Le, Svetha Venkatesh, Truyen Tran. <a
-                            href="https://arxiv.org/abs/2004.14603">Dynamic Language Binding in Relational Visual
-                            Reasoning</a>. In Proceedings of the Twenty-Ninth International Joint Conference on
-                        Artificial
-                        Intelligence (IJCAI’20), pages 818-824. Code is available on <a
-                            href="https://github.com/thaolmk54/LOGNet-VQA">GitHub</a>.
-                    </li>
-
-                    <li>
-                        <u>Thao Minh Le</u>, Vuong Le, Svetha Venkatesh, Truyen Tran. <a
-                            href="https://arxiv.org/abs/1907.04553">
-                            Neural Reasoning, Fast and Slow, for Video Question Answering</a>. In Proceedings of the
-                        2020
-                        International Joint Conference on Neural Networks
-                        (IJCNN’20) (pp. 1-8), doi: 10.1109/IJCNN48605.2020.9207580.
-                    </li>
-
-                    <li>
-                        <u>Thao Minh Le</u>, Vuong Le, Svetha Venkatesh and Truyen Tran. <a
-                            href="https://arxiv.org/abs/2002.10698">
-                            Hierarchical Conditional Relation Networks for Video Question Answering</a>. In Proceedings
-                        of the
-                        IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR’20), pages 9972-9981.
-                        Code is available on <a href="https://github.com/thaolmk54/hcrn-videoqa">GitHub</a>
-                        <font color="red"><b>(Oral acceptance)</b></font>.
-                    </li>
-
-                    <li>
-                        <u>Thao Minh Le</u>, Nakamasa Inoue, Koichi Shinoda. <a
-                            href="http://bmvc2018.org/contents/papers/0745.pdf">
-                            A Fine-to-Coarse Convolutional Neural Network for 3D Human Action Recognition</a>. In
-                        Proceedings
-                        of the British Machine Vision Conference (BMVC'18), Sep. 3, 2018.
-                    </li>
-
-                    <li>
-                        <u>Thao Le Minh</u>, Nobuyuki Shimizu, Takashi Miyazaki, Koichi Shinoda. <a
-                            href="https://www.ijcai.org/proceedings/2018/214">
-                            Deep Learning Based Multi-modal Addressee Recognition in Visual Scenes with Utterances</a>.
-                        In
-                        Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI'18), pp.
-                        1546-1553,
-                        Jul. 13,
-                        2018. Check our <a href="https://github.com/yahoojapan/VSU-Dataset">GitHub</a> out for details
-                        of
-                        the
-                        released dataset.
-                    </li>
-
-                    <li>
-                        Viet Dung Nguyen, <u>Minh Thao Le</u>, Anh Duc Do, Hoang Hai Duong, Toan Dat Thai, and Duc Hoa
-                        Tran.
-                        <a href="https://ieeexplore.ieee.org/document/6931308/">
-                            An efficient camera-based surveillance for fall detection of elderly people</a>.
-                        In Proceedings
-                        of the Industrial
-                        Electronics and Applications (ICIEA'14), 2014 IEEE 9th Conference on, pp. 994-997. IEEE, 2014.
-                    </li>
-                </ul>
             </div>
-            <div class="col-lg-1">
+        </section>
+
+        <!-- Tutorials Section -->
+        <section class="publication-section" aria-labelledby="tutorials-heading">
+            <h2 id="tutorials-heading" class="section-heading">Tutorials</h2>
+            <div class="publications-list">
+
+                <article class="publication-entry" data-pub-type="tutorial">
+                    <p class="publication-authors">Truyen Tran, Vuong Le, Hung Le, <span class="current-author">Thao Minh Le</span>.</p>
+                    <h3 class="publication-title"><a href="https://dl.acm.org/doi/abs/10.1145/3447548.3470803" target="_blank" rel="noopener noreferrer">From Deep Learning to Deep Reasoning</a></h3>
+                    <p class="publication-venue">ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2021</p>
+                    <p class="publication-links"><a href="https://truyentran.github.io/kdd2021-tute.html" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link" aria-hidden="true"></i> Tutorial Website</a></p>
+                </article>
+
+                <article class="publication-entry" data-pub-type="tutorial">
+                    <p class="publication-authors">Truyen Tran, Vuong Le, Hung Le, <span class="current-author">Thao Minh Le</span>.</p>
+                    <h3 class="publication-title"><a href="https://neuralreasoning.github.io/" target="_blank" rel="noopener noreferrer">Neural Machine Reasoning</a></h3>
+                    <p class="publication-venue">International Joint Conference on Artificial Intelligence (IJCAI), 2021</p>
+                    <p class="publication-links"><a href="https://ijcai-21.org/tutorials/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link" aria-hidden="true"></i> Tutorial List</a></p>
+                </article>
+
             </div>
-        </div>
-        <br>
+        </section>
 
-        <div class="row">
-            <div class="col-lg-10">
-                <h4 class="page-header"> Workshop Papers and Technical Reports
-                </h4>
-                <ul>
-                    <li>
-                        Tuyen Tran, <u>Thao Minh Le</u>, Truyen Tran. <a
-                            href=""> Promptable Iterative VisualRefinement for Video Instance Segmentation</a>. In Instance-Level Recognition Workshop at ECCV, 2024.
-                    </li>
-
-                    <li>
-                        Long Hoang Dang, <u>Thao Minh Le</u>, Vuong Le, Tu Minh Phuong, Truyen Tran. <a
-                            href="https://openreview.net/forum?id=NXnSr_uXgh"> Time-Evolving
-                            Conditional Character-centric Graphs for Movie Understanding</a>. In NeurIPS 2022 Temporal
-                        Graph
-                        Learning Workshop, 2022.
-                    </li>
-
-                    <li>
-                        Tri Minh Nguyen, Thin Nguyen, <u>Thao Minh Le</u>, Truyen Tran. <a
-                            href="https://www.mlsb.io/papers/MLSB2020_GEFA:_Early_Fusion_Approach.pdf">
-                            GEFA: Early Fusion Approach in Drug-Target Affinity Prediction</a>. In NeurIPS 2020 Workshop
-                        on
-                        Machine Learning for Structural Biology (MLSB’20).
-                    </li>
-
-                    <li>
-                        Long Hoang Dang, <u>Thao Minh Le</u>, Vuong Le, Truyen Tran. Object-Centric Relational Reasoning
-                        for
-                        Video Question Answering. In the ECCV 2nd Workshop on Video Turing Test: Toward Human-Level
-                        Video Story Understanding, Aug, 2020.
-                    </li>
-
-                    <li>
-                        <u>Thao Minh Le</u>, Nakamasa Inoue, Koichi Shinoda. <a
-                            href="https://www.ieice.org/ken/paper/2018121431Ih/">
-                            Skeleton-based Human Action Recognition with Fine-to-Coarse Convolutional Neural
-                            Network</a>.
-                        Technical Reports of IEICE PRMU, vol. 118, no. 362, pp. 61-64, Dec. 13, 2018.
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-1">
-            </div>
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="col-lg-10">
-                <h4 class="page-header"> Tutorials
-                </h4>
-                <ul>
-                    <li>
-                        Truyen Tran, Vuong Le, Hung Le, <u>Thao Minh Le</u>. <a
-                            href="https://dl.acm.org/doi/abs/10.1145/3447548.3470803">
-                            From Deep Learning to Deep Reasoning</a>. The 27th ACM SIGKDD Conference on Knowledge
-                        Discovery
-                        and Data Mining (KDD’21), Singapore. <a href="https://truyentran.github.io/kdd2021-tute.html">
-                            Tutorial website</a>.
-                    </li>
-
-                    <li>
-                        Truyen Tran, Vuong Le, Hung Le, <u>Thao Minh Le</u>. <a
-                            href="https://neuralreasoning.github.io/">
-                            Neural Machine Reasoning</a>. The 2021 International Joint Conference on Artificial
-                        Intelligence (IJCAI’21), Montreal, Canada. <a href="https://ijcai-21.org/tutorials/">
-                            Accepted tutorial list</a>.
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-1">
-            </div>
-        </div>
-        <br>
-
-    </div>
-    <!-- /.container -->
+    </main>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Navigation JavaScript -->
+    <script src="js/navigation.js"></script>
 
 </body>
 
